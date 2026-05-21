@@ -39,6 +39,7 @@ def convStrNum(string):
     string = string.split()
     updatedStr = 0
     grandTotal = 0
+    
     for i in range(len(string)):
         if string[i] in base:
             if string[i] == 'hundred':
