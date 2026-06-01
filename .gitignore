@@ -1,0 +1,49 @@
+# Lyfe/System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Node/JavaScript
+node_modules/
+.npm
+.eslintcache
+.parcel-cache
+.turbo/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+.pytest_cache/
+
+# Environments / Secrets / API Keys (NEVER commit these!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.secret
+
+# Logs and databases
+*.log
+*.sqlite
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

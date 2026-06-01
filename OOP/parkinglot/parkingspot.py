@@ -1,7 +1,7 @@
 from vehicle import Vehicle, Motorcycle, Car, Truck
 class ParkingSpot:
 
-    def __init__(self, spot: int, size: str):
+    def __init__(self, spot: str, size: str):
 
         self.spot = spot
         self.size = size

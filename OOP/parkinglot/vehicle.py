@@ -1,6 +1,6 @@
 class Vehicle:
 
-    def __init__(self, license, size):
+    def __init__(self, license : str, size : int):
 
         self.__license = license
         self.size = size
@@ -13,13 +13,13 @@ class Vehicle:
 
 class Motorcycle(Vehicle):
     def __init__(self, license):
-        super().__init__(license, size = "small")
+        super().__init__(license, size = "Small")
 
 
 class Truck(Vehicle):
     def __init__(self,license):
-        super().__init__(license, size = "large")
+        super().__init__(license, size = "Large")
 
 class Car(Vehicle):
     def __init__(self, license):
-        super().__init__(license, size = "medium")
+        super().__init__(license, size = "Medium")
