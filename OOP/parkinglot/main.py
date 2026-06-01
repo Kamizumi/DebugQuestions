@@ -8,6 +8,7 @@ def main():
         pk(spot = "C1", size ="Small"),
         pk(spot = "C2", size ="Small"),
         pk(spot = "L1", size="Large"),
+        pk(spot = "M1", size = "Medium")
     ]
 
     manager = pm(physical_spots)
@@ -19,10 +20,14 @@ def main():
     v4 = Motorcycle(license = "YEP")
 
 
-    manager.parkVehicle(v1)
-    manager.parkVehicle(v2)
-    manager.parkVehicle(v3)
-    manager.parkVehicle(v4)
+
+    v1_ticket = manager.parkVehicle(v1)
+    v2_ticket = manager.parkVehicle(v2)
+    v3_ticket = manager.parkVehicle(v3)
+    v4_ticket = manager.parkVehicle(v4)
+
+
+
 
 
     
